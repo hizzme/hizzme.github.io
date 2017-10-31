@@ -1,0 +1,62 @@
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+body {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center; }
+
+#hoor {
+  align-self: flex-end;
+  font-size: 16px; }
+
+nav {
+  background-color: black;
+  color: white;
+  width: 80%;
+  display: flex;
+  justify-content: space-around; }
+  nav a {
+    color: white;
+    text-decoration: none; }
+
+#container {
+  display: flex;
+  flex-flow: column wrap;
+  border: 2px solid black;
+  width: 80%;
+  padding: 1%; }
+
+.spot {
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  color: black; }
+  .spot a {
+    text-decoration: none;
+    color: black; }
+  .spot .domain {
+    color: #6495ED;
+    font-size: 14px; }
+  .spot .pink {
+    color: hotpink; }
+  .spot .green {
+    color: green; }
+
+.rank {
+  height: 100%;
+  width: 20px; }
+
+.thing {
+  height: 100%;
+  width: 100%;
+  display: flex; }
+
+.action {
+  width: fit-content;
+  margin: 0 .5%; }
+
+.actions {
+  font-size: 11px; }
+
+/*# sourceMappingURL=style.css.map */
